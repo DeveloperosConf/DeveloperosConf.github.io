@@ -105,5 +105,8 @@ function initMap(){
 };
 
 $( function() {
-    $( "#accordion" ).accordion();
+    $( "#accordion" ).accordion({
+        heightStyle: "content",
+        collapsible: true
+    });
   } );

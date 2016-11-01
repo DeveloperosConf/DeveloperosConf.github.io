@@ -332,8 +332,9 @@ footer {
 	padding: 50px;
 }
 
-
-
+#accordion h3 {
+	cursor: pointer;
+}
 
 
 
