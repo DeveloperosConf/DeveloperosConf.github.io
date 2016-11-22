@@ -124,13 +124,13 @@ ul {
 }
 
 img.container1_logos_1 {
-	max-width: 125px;
+	max-width: 150px;
 	margin: 25px 50px;
 }
 
 img.container1_logos_2 {
-    max-width: 50px;
-    margin: 25px 0;
+	max-width: 200px;
+    margin: 25px 0px ;
 }
 
 .button {
@@ -168,9 +168,13 @@ img.container1_logos_2 {
     border-top: 1px solid #cee2ec;
 }
 
-#map {
+.map {
      height: 500px;
      width: 100%;
+}
+
+.scrolloff {
+	pointer-events: none;
 }
 
 #container5 {
@@ -336,6 +340,9 @@ footer {
 	cursor: pointer;
 }
 
+.link {
+	text-decoration: underline;
+}
 
 
 
