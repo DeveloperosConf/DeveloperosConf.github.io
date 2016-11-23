@@ -3,14 +3,15 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-sale=1.0">
 	<title>DOS DevelopOS</title>
 	<link rel="stylesheet" type="text/css" href="custom_normalize.css">
 	<link rel="stylesheet" type="text/css" href="slicknav.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 	<script src="jquery.slicknav.min.js"></script>
+	<script src="global.js"></script>
 </head>
 
 <body>
@@ -24,8 +25,8 @@
 					<ul id="menu">
 						<li><a href="#open-space" class="nav_button">Open Space</a></li>
 						<li><a href="#lugar" class="nav_button">Lugar</a></li>
-						<!--<li><a href="#contacto" class="nav_button">Contacto</a></li>-->
-						<li><a href="#preguntas" class="nav_button">Preguntas</a></li>
+						<li><a href="#contacto" class="nav_button">Contacto</a></li>
+						<li><a href="#faq" class="nav_button">Preguntas</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -35,9 +36,9 @@
 						<img src="img/pez_DeveloperOS.png">
 					</figure>
 					<div class="presentacion_content">
-						<h1>DeveloperOS</h1>
-						<p>La organización de DeveloperOS y la Universidad Rey Juan Carlos organizan la primera edición de este Open Space con
-							el objetivo de dedicar un día entero a sesiones sobre nuestra pasión, el desarrollo de software.
+											<h1>DeveloperOS</h1>
+						<p>La organización de DeveloperOS y la Universidad Rey Juan Carlos organizan la primera edición de este Open Space
+							con el objetivo de dedicar un día entero a sesiones sobre nuestra pasión, el desarrollo de software.
 						</p>
 						<br>
 						<p>El Open Space tendrá lugar el <strong>28 de enero de 2017</strong>, en el <a href="#container4" class="link">Campus de Madrid - Manuel Becerra de la Universidad Rey Juan Carlos</a>.</p>
@@ -53,9 +54,9 @@
 								<img src="img/logo_ReyJuanCarlos.png" class="presentacion_logos_2">
 							</figure>
 						</div>
-						<!--<div class="entrada">
+						<div class="entrada">
 							<a href="#" class="button presentacion_button">Quiero mi entrada</a>
-						</div>-->
+						</div>
 					</div>
 				</div>
 			</section>
@@ -77,12 +78,6 @@
 			puede inhibir la creatividad y el aprendizaje.</p>
 		<p><span class="strong">Cuando se termina, se termina:</span> el proceso colectivo y la creatividad tiene sus propios ritmos,
 			a veces se usa más tiempo o menos del que se esperaba.</p>
-		<h3>La ley de los dos pies</h3>
-		<p>
-			Cualquier persona tiene la libertad de moverse de un grupo a otro en cualquier momento del evento. Si alguien está en un
-			grupo donde no encuentra la posibilidad de aprender o contribuir con algo, es responsable de usar sus dos pies para moverse
-			a otro grupo donde crea que sí lo puede hacer.
-		</p>
 	</section>
 	<section id="lugar">
 		<div>
@@ -94,31 +89,27 @@
 			<h2>Lugar</h2>
 			<p>
 				El Open Space tendrá lugar en en el Campus de Madrid - Manuel Becerra, proporcionado por la Universidad Rey Juan Carlos.
-				Dispondremos de 3 aulas, 1 salón de actos y la cafetería para poder preparar el panel de sesiones, comer y tomar un descanso
-				cuando el cuerpo lo pida. A excepción de la cafetería, todos los espacios tendrán proyector.
+				Dispondremos de 3 aulas, 1 salón de actos y la cafetería para poder preparar el panel de sesiones, comer y tomar un descanso cuando el cuerpo lo pida.
+				A excepción de la cafetería, todos los espacios tendrán proyector.
 			</p>
 		</div>
 	</section>
-	<section id="map">
-<div id="canvas1" class="map">
-				<iframe id="map_canvas1" width="100%" height="100%" frameborder="0" style="border:0;"
-				src="https://www.google.com/maps/embed/v1/place?q=universidad%20rey%20juan%20carlos%20manuel%20becerra&key=AIzaSyB7jO7r-X0TD0lCmtfUI_fWZ8mBXQyI7eM" allowfullscreen></iframe>	</section>
-			</div>
-	</section>
-	</div>
+	<section id="map">		
 	</section>
 	<section id="call-to-action">
 		<div class="call-to-action_content">
 			<div class="flex">
 				<div class="call-to-action_content_info">
-					<h2>¿Te interesa?</h2>
+										<h2>¿Te interesa?</h2>
 					<p>
 						Estamos ultimando los detalles para poder concretar el precio de la entrada y el registro al evento. ¡Estate atento!
 					</p>
 					<p>
-						¿Tienes preguntas? <a href="https://twitter.com/intent/tweet?screen_name=DOSConf" class="twitter-mention-button" data-show-count="false">Tweet to @DOSConf</a>
-						<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+						¿Tienes preguntas? <a href="https://twitter.com/intent/tweet?screen_name=DOSConf" class="twitter-mention-button" data-show-count="false">Tweet to @DOSConf</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 					</p>
+					<!--<div class="entrada">
+						<a href="#" class="button5 call-to-action_button">Quiero apuntarme</a>
+					</div>-->
 				</div>
 				<div class="flex">
 					<figure>
@@ -127,7 +118,7 @@
 				</div>
 			</div>
 	</section>
-	<!--<section id="contacto">
+	<section id="contacto">
 		<div class="flex">
 			<form class="contacto_form">
 				<div class="contacto_form_flex">
@@ -146,8 +137,8 @@
 				<p>Síguenos en: <a href="https://twitter.com/DeveloperOSConf"><span class="social">@DeveloperOSConf</span></a></p>
 			</div>
 		</div>
-	</section>-->
-	<section id="preguntas">
+	</section>
+	<section id="faq">
 		<h2>Preguntas</h2>
 		<div id="accordion">
 			<h3>¿Qué es un Open Space?</h3>
@@ -295,23 +286,10 @@
 		<h5>2016 DeveloperOS - All Rights Reserved</h5>
 		<a class="go-top" href="#"><img src="img/flecha-arriba-01.png" style="width: 25px"></a>
 	</footer>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlWyujD761q5PXF-siTt5xxMDdk_Qvz8I&callback=initMap">
+    </script>
 	<script>
 		$(document).ready(function() {
-			$('#menu').slicknav({
-				label: ""
-			});
-        $('#map_canvas1').addClass('scrolloff');
-        $('#canvas1').on('click', function () {
-            $('#map_canvas1').removeClass('scrolloff');
-        });
-        $("#map_canvas1").mouseleave(function () {
-            $('#map_canvas1').addClass('scrolloff');
-        });
-			$("#accordion").accordion({
-				heightStyle: "content",
-				collapsible: true,
-				active: false
-			});
 			$(window).scroll(function() {
 				if ($(this).scrollTop() > 200) {
 					$('.go-top').fadeIn(200);
@@ -321,6 +299,7 @@
 			});
 			$('.go-top').click(function(event) {
 				event.preventDefault();
+
 				$('html, body').animate({scrollTop: 0}, 300);
 			})
 		});
