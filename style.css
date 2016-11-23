@@ -98,7 +98,8 @@ nav li:not(:last-child) {
     align-items: flex-end;
 }
 
-.flex.presentacion_logos {
+.flex.presentacion_
+s {
     align-items: center;
 }
 
@@ -135,12 +136,12 @@ nav ul {
 }
 
 img.presentacion_logos_1 {
-    max-width: 125px;
+    max-width: 200px;
     margin: 25px 50px;
 }
 
 img.presentacion_logos_2 {
-    max-width: 50px;
+    max-width: 200px;
     margin: 25px 0;
 }
 
