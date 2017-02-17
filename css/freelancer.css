@@ -524,12 +524,12 @@ fieldset[disabled] .btn-success.active {
   padding-top: 25px;
 }
 
-section.success a,
-section.success a:hover {
+.intro-text a,
+.intro-text a:hover {
 	text-decoration: underline;
 	color: #fff;
 }
 
-section.success a:hover {
+.intro-text a:hover {
 	color: #ddd;
 }
