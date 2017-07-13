@@ -524,11 +524,6 @@ fieldset[disabled] .btn-success.active {
   padding-top: 25px;
 }
 
-.we-want-you {
-    width: 20%;
-    height: auto;
-}
-
 .intro-text a,
 .intro-text a:hover {
 	text-decoration: underline;
@@ -537,13 +532,4 @@ fieldset[disabled] .btn-success.active {
 
 .intro-text a:hover {
 	color: #ddd;
-}
-
-.segunda-edicion-text
-{
-  
-  font-weight: 700;
-  font-size: 2.5em;
-  margin-right: 110px;
-  
 }
